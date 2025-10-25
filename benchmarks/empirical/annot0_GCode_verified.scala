@@ -1,8 +1,8 @@
 package annot0_verified
 
-// https://github.com/alexsmirnov/printrbot-g2-console/blob/a80fb48f22ebd770fb5c04306f277488c0d4e16b/src/main/scala/alexsmirnov/pbconsole/gcode/GCode.scala
-
 import stainless.lang.*
+
+// https://github.com/alexsmirnov/printrbot-g2-console/blob/a80fb48f22ebd770fb5c04306f277488c0d4e16b/src/main/scala/alexsmirnov/pbconsole/gcode/GCode.scala
 
 object GCode {
 

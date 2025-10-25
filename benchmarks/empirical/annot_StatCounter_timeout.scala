@@ -1,10 +1,10 @@
 package annot
 
-// https://github.com/phenixmzy/spark-2.1.0/blob/bb535a80492de7ac696107559bf314b800dd9fc6/core/src/main/scala/org/apache/spark/util/StatCounter.scala
-
 import stainless.math
 import stainless.lang.*
 import stainless.annotation.*
+
+// https://github.com/phenixmzy/spark-2.1.0/blob/bb535a80492de7ac696107559bf314b800dd9fc6/core/src/main/scala/org/apache/spark/util/StatCounter.scala
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more

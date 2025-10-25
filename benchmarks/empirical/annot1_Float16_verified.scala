@@ -1,5 +1,7 @@
 package annot1
 
+import stainless.lang.*
+
 //https://github.com/EmergentOrder/onnx-scala/blob/6c1d340e5e703717a4071375467a1da73d33c14f/common/src/main/scala/Float16.scala
 
 /*
@@ -17,8 +19,6 @@ package annot1
  * limitations under the License.
  */
 //Source: https://github.com/stripe/agate/blob/master/core/src/main/scala/com/stripe/agate/tensor/Float16.scala
-
-import stainless.lang.*
 
 /** Float16 represents 16-bit floating-point values.
   *

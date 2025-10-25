@@ -3,6 +3,8 @@ package annot_verified
 import stainless.lang.*
 import stainless.math.*
 
+// https://github.com/orisano/fpinscala/blob/d9adad051bebe25f9b86a5994daa049b58005c3c/exercises/src/main/scala/fpinscala/streamingio/StreamingIO.scala
+
   /*
     * Exercise 9: Write a program that reads degrees fahrenheit as `Double` values from a file,
     * converts each temperature to celsius, and writes results to another file.

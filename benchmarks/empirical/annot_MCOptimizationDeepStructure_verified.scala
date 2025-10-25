@@ -3,6 +3,7 @@ package annot
 import stainless.lang.*
 
 // https://github.com/uzh/PPLib/blob/d55762e68f12dba9b3048d283d85d80f91094269/src/main/scala/ch/uzh/ifi/pdeboer/pplib/examples/optimizationSimulation/MCOptimizationSimulation.scala#L8
+
 class MCOptimizeConstants(val bestAnswer: Int) {
 
   def answerDistance(answer: Int) = {

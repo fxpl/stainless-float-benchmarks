@@ -19,14 +19,14 @@ object CapacitorStateType {
 
 
 // https://github.com/Pinapse/giant/blob/04b79b7f2cc0934d81d9bcae47aa41880e134886/src/main/scala/net/psforever/objects/definition/ExoSuitDefinition.scala#L19
-
+// Copyright (c) 2017 PSForever
 class ExoSuitDefinition(val maxCapacitor: Int = 0) {
   require(maxCapacitor >= 0)
 }
 
 
 // https://github.com/Pinapse/giant/blob/04b79b7f2cc0934d81d9bcae47aa41880e134886/src/main/scala/net/psforever/objects/Player.scala#L349
-
+// Copyright (c) 2017 PSForever
 class Player(
   exosuit: ExoSuitDefinition, 
   var capacitor: Float = 0f,

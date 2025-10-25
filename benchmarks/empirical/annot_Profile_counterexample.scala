@@ -2,7 +2,7 @@ package annot_counterexample
 
 import stainless.lang.*
 
-// https://github.com/alexishorner/dotty/blob/eef332ee725776eb445de57801e6a026a7da48b3/compiler/src/dotty/tools/dotc/reporting/Profile.scalaobject Profile:
+// https://github.com/alexishorner/dotty/blob/eef332ee725776eb445de57801e6a026a7da48b3/compiler/src/dotty/tools/dotc/reporting/Profile.scala
 
 object Profile:
   inline val TastyChunkSize = 50

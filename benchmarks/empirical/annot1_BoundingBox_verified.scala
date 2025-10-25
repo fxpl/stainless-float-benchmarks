@@ -1,8 +1,8 @@
 package annot1
 
-// https://github.com/alvarogimenez/g-code-utils/blob/7187172a58046bc35f7be73f96f5941713826f48/src/main/scala/com/gomezgimenez/gcode/utils/entities/geometry/BoundingBox.scala
-
 import stainless.lang.*
+
+// https://github.com/alvarogimenez/g-code-utils/blob/7187172a58046bc35f7be73f96f5941713826f48/src/main/scala/com/gomezgimenez/gcode/utils/entities/geometry/BoundingBox.scala
 
 case class BoundingBox(left: Double, top: Double, right: Double, bottom: Double) {
   require(left <= right)
