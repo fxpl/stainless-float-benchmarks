@@ -3,6 +3,11 @@ package annot
 import stainless.lang.*
 
 // https://github.com/seL4/isabelle/blob/55b8c844db5feb0b7119e6d87a47b419f74234ed/src/Pure/GUI/gui.scala
+/*  Title:      Pure/GUI/gui.scala
+    Author:     Makarius
+
+Basic GUI tools (for AWT/Swing).
+*/
 
 class Zoom(val percent: Int) {
     require(0 < percent)
